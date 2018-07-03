@@ -1,0 +1,35 @@
+.textArea {
+  display: flex; /* 子要素をflexboxで揃える */
+  flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+  justify-content: center; /* 子要素をflexboxにより中央に配置する */
+  align-items: center;  /* 子要素をflexboxにより中央に配置する */
+
+  padding: 3em;
+  background-color: rgba(255,255,255,0.5);
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.index {
+  display: flex; /* 子要素をflexboxで揃える */
+  flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+  justify-content: center; /* 子要素をflexboxにより中央に配置する */
+  align-items: center;  /* 子要素をflexboxにより中央に配置する */
+  background-color: rgba(255,255,255,0.5);
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.chart {
+  display: flex; /* 子要素をflexboxで揃える */
+  flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+  justify-content: center; /* 子要素をflexboxにより中央に配置する */
+  align-items: center;  /* 子要素をflexboxにより中央に配置する */
+  background-color: rgba(255,255,255,0.5);
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.reactElem{
+
+  position: relative; /*必ず必要*/
+  z-index: 2; /*必ず必要*/
+}
